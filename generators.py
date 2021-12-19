@@ -9,7 +9,7 @@ def fibonacci_gen(max=None):
         else:
             yield n2
             n1, n2 = n2, n1+n2
-
+# Los generadores se iteran una vez
 
 if __name__ == "__main__":
     fibonacci = fibonacci_gen(40)
